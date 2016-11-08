@@ -13,6 +13,7 @@ label {
 	font-size:24px;
 	font-family:"Lucida Sans Unicode";
 	font-weight:bold;
+	/*annen font?*/
 }
 
 #inputKnapp {
@@ -33,19 +34,14 @@ img {
 	width:200px;
 }
 
-
 #leftCane {
 	position:absolute;
 	left:10%;
 	top:5%;
-	width:15%;
-
 }
 
 #rightCane {
 	position:absolute;
 	right:10%;
 	top:5%;
-	width:15%;
-
 }

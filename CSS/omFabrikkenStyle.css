@@ -1,28 +1,17 @@
 
-
-
 html, body {
 	background-color: #FFF8F2;
 	text-align:center;
 	padding-bottom:0;
 	margin:0;
-}
 
-body {
-	position:relative;
-	margin-top:0;
-	background-image:url("../img/omFabrikkenBakgrunn.png");
-	background-repeat:no-repeat;
-	background-size: 100% ;
+	/*background-image:url("omFabrikkenBakgrunn.png");*/
 }
-
 
 .wrapper {
 	position:relative;
 	min-height:90%;
 	width:100%;
-	top:150px;
-
 }
 
 h1 {
@@ -30,7 +19,8 @@ h1 {
 	font-family:Tahoma;
 	font-family:"Lucida Sans Unicode";
 	font-size:44px;
-	margin-top:0px;
+	margin-top:100px;
+	/* hvordan faa bold og moon?*/
 }
 
 section {
@@ -41,7 +31,6 @@ section {
 	/*font-size:20px;
 	/*litt mindre font ser bedre ut;*/
 	font-size:17px;
-
 }
 
 
@@ -70,17 +59,16 @@ a {
 	position:absolute;
 	top: 0;
 	left:0;
-	z-index:1;
+	z-index:-1;
 }
 
  footer {
 	background-color:#EDE5E0;
+	font-family:;
 	font-size:20px;
 	width:100%;
 	height: 100px;
-	/*position:absolute;*/
-	position:static;
-	left:0;
+	position:absolute;
 	bottom:0;
 }
 div > div {
