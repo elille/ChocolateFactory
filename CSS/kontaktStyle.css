@@ -1,0 +1,47 @@
+body {
+	background-color:#FFF8F2;
+	text-align:center;
+}
+
+h1 {
+	color: #D0021B;
+	font-family:"Lucida Sans Unicode";
+	font-size:44px;
+}
+
+label {
+	font-size:24px;
+	font-family:"Lucida Sans Unicode";
+	font-weight:bold;
+	/*annen font?*/
+}
+
+#inputKnapp {
+	background-color:#5C3818;
+	color:#E69349;
+	font-family:"Lucida Sans Unicode";
+	font-size:20px;
+	border-radius:8px;
+}
+
+input[type=text], input[type=email], textarea{
+	width:40%;
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+
+img {
+	width:200px;
+}
+
+#leftCane {
+	position:absolute;
+	left:10%;
+	top:5%;
+}
+
+#rightCane {
+	position:absolute;
+	right:10%;
+	top:5%;
+}
