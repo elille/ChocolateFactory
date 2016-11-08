@@ -1,0 +1,30 @@
+body{
+	background-color: #FFF8F2;
+	margin: 0;
+}
+
+.header{
+	color: #D0021B;
+	font-family: "Lucida Sans Unicode";
+	font-size: 30px;
+	text-align: center;
+	font-weight:bold;
+}
+
+.subheadings{
+	text-align: center;
+	font-family: "Lucida Sans Unicode";
+	font-weight: lighter;
+	font-size: 25px;
+	color: #000000;
+}
+
+.text{
+	text-align: justify;
+	font-family: Arial;
+	font-size:17px;
+}
+
+a{
+	color: #000000;
+}

@@ -1,19 +1,8 @@
-body{
-	background-color: #FFF8F2;
-	margin: 0;
-}
 
 .navbar{
 	height: 110px;
 	background-color: #5C3818;
 	margin: 0;
-}
-
-.header{
-	color: #D0021B;
-	font-family: "Lucida Sans Unicode";
-	font-size: 30px;
-	text-align: center;
 }
 
 #headimg{
@@ -28,14 +17,6 @@ body{
 	margin: 0 auto;
 	padding: 0 20px;
 	vertical-align: top;
-}
-
-.subheadings{
-	text-align: center;
-	font-family: "Lucida Sans Unicode";
-	font-weight: lighter;
-	font-size: 25px;
-	color: #000000;
 }
 
 #diabethus > h3{
@@ -54,19 +35,8 @@ body{
 	width:100%;
 }
 
-.text{
-	text-align: justify;
-	font-family: Arial;
-	font-size:17px;
-}
-
-a{
-	color: #000000;
-}
-
 .division{
 	width: 0;
 	display: table;
 	margin: 0 auto;
-	
 }
