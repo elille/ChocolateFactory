@@ -3,6 +3,7 @@ body {
 	text-align:left;
 	margin-left:30%;
 	margin-right:30%;
+	min-width:300px;
 
 }
 
@@ -23,6 +24,7 @@ h2 {
 	text-align:center;
 	
 }
+
 
 #lobbyist > h2 {
 	color: #BD10E0;
