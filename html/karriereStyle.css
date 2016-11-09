@@ -1,0 +1,74 @@
+body {
+	background-color: #FFF8F2;
+	text-align:left;
+	margin-left:30%;
+	margin-right:30%;
+	min-width:300px;
+
+}
+
+h1 {
+	color: #4A90E2;
+	font-family:"Lucida Sans Unicode";
+	font-weight:bold;
+	font-size:44px;
+	text-align:center;
+	margin-top:100px;
+	/* hvordan faa bold og moon?*/
+}
+
+h2 {
+	font-weight:lighter;
+	font-family:"Lucida Sans Unicode";
+	font-size:40px;
+	text-align:center;
+	
+}
+
+
+#lobbyist > h2 {
+	color: #BD10E0;
+}
+#kvalitet > h2 {
+	color: #8B572A;
+}
+
+img {
+	width:100px;
+	position:absolute;
+}
+
+#leftP {
+	left: 5%;
+	top:40px;
+}
+#leftG {
+	left: 15%;
+	top:65px;
+}
+#leftR {
+	left: 25%;
+	top:42px;
+}
+#leftY {
+	left: 35%;
+	top:60px;
+}
+#rightP {
+	right: 5%;
+	top:40px;
+}
+#rightG {
+	right: 15%;
+	top:65px;
+}
+#rightR {
+	right: 25%;
+	top:42px;
+}
+#rightY {
+	right: 35%;
+	top:60px;
+}
+
+/*mer avstand mellom header og stilinger?
