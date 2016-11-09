@@ -1,9 +1,6 @@
 
 html, body {
-	background-color: #FFF8F2;
-	text-align:center;
 	padding-bottom:0;
-	margin:0;
 
 	/*background-image:url("omFabrikkenBakgrunn.png");*/
 }
@@ -14,11 +11,8 @@ html, body {
 	width:100%;
 }
 
-h1 {
+#aboutHeader {
 	color: #8B572A;
-	font-family:Tahoma;
-	font-family:"Lucida Sans Unicode";
-	font-size:44px;
 	margin-top:100px;
 	/* hvordan faa bold og moon?*/
 }
@@ -27,10 +21,8 @@ section {
 	margin-left:30%;
 	margin-right:30%;
 	min-width:400px;
-	font-family:Arial;
 	/*font-size:20px;
 	/*litt mindre font ser bedre ut;*/
-	font-size:17px;
 }
 
 
@@ -40,12 +32,6 @@ h3 {
 	font-size:25px;
 	font-weight:lighter;
 }
-
-a {
-	color: #000000;
-	font-size:25px;
-}
-
 
 
 #factoryPic {
