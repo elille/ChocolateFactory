@@ -13,14 +13,33 @@ MÅL:  Gi bakgrunnsinformasjon om fabrikken og mulighet for kontakt
 		<title> Om fabrikken </title>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="../css/omFabrikkenStyle.css" />
+		<link rel="stylesheet" type="text/css" href="../css/mainStyle.css" />
 		<link rel="icon" type="image/png" href="img/favicon.png"/>
 	</head>
 	<body>
+		<!-- start code for navbar -->
+		<nav class=main-nav>
+			<div class="logo">
+				<a href="../index.html">
+						<img src="../img/logo.svg" alt="Logo">
+				</a>
+			</div>
+			<div>
+				<a class="square" href="omFabrikken.html">ABOUT</a>
+				<a class="square" href="karriere.html">CAREER</a>
+				<a class="square" href="charities.html">CHARITIES</a>
+				<a class="square" href="konkurranse.html">CONTESTS</a>
+				<a class="square" href="products.html">PRODUCTS</a>
+			</div>
+		</nav>
+		<!-- end code for navbar -->
+
+	<img id="runnyChocolate" src="../img/ChocolateHeader.svg" alt="" />
+
 	<!-- bilde som skal ligge bak teksten og wrapperen-->
 	<!-- trenger vel ikke dette da <img src="img/omFabrikkenBakgrunn.png" id="bakgrunn"/> -->
 	<!--legger alt inn i en wrapper for å kunne lage sticky footer-->
 	<div class="wrapper">
-
 		<h1> Om fabrikken </h1>
 
 		<!-- teksten om fabrikken, delt opp i forskjellige paragraphs-->
@@ -41,7 +60,7 @@ MÅL:  Gi bakgrunnsinformasjon om fabrikken og mulighet for kontakt
 			Fabrikken benekter alle anklager om forsvunne barn på fabrikkens område. Alle anklager om manglende rettigheter for fabrikkens arbeidere, Umpa Lumpaene, er grunnløse.<br>
 			</p5><br>
 			<!-- komplementært bilde som viser fabrikken-->
-			<img src="img/factory.jpeg" id="factoryPic"/><br>
+			<img src="../img/factory.jpeg" id="factoryPic"/><br>
 
 			<!-- link til kontakt.html -->
 			<a href="kontakt.html"> Kontakt oss </a>
@@ -50,7 +69,6 @@ MÅL:  Gi bakgrunnsinformasjon om fabrikken og mulighet for kontakt
 		<!-- footer som inneholder kontaktinfo-->
 		<footer>
 			<div id="footWrapper">
-
 			<div id="kontaktinfo"> Kontaktinformasjon </div>
 			<div id="telefonnummer"> Telefon: 99009900 </div>
 			<div id="epost"> e-post: kontakt@charlies.com </div></div>
