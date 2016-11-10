@@ -8,9 +8,15 @@ body {
 	position:relative;
 }
 
+/*makes sure the text is laying over the chocolate smear*/
+.wrapper {
+	position: relative;
+	top: -100px;
+}
+
 #aboutHeader {
 	color: #8B572A;
-	margin-top:100px;
+	margin-top: 0;
 	/* hvordan faa bold og moon?*/
 }
 
