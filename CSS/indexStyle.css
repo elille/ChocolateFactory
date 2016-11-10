@@ -1,36 +1,28 @@
-body {
-  margin: 0;
-  font-family:"Lucida Sans Unicode";
-  font-size:12px;
-  font-weight: bold;
+
+.main-nav img {
+  height: 70px;
 }
 
-.logo {
-  float: left;
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:  20px 90px;
+  background-color: #5C3818;
 }
 
-.logo img {
-  height: 100px;
-}
 
-nav {
-    padding:  20px 90px;
-    overflow: hidden;
-    background-color: #5C3818;
-}
-nav img {
-  padding:  0px 0px;
-
-}
-nav a {
+.main-nav a {
     float: right;
+    font-family:"Lucida Sans Unicode";
+    font-size:15px;
     color: white;
     text-align: center;
     text-decoration: none;
 }
 
-.square {
-  width: 80px;
+.main-nav .square {
+  width: 100px;
   height: 80px;
   background-color: #8B572A;
   border: 10px solid #523419;
@@ -43,7 +35,7 @@ nav a {
 }
 
 /* Change the color on hover */
-.square:hover {
+.main-nav .square:hover {
     background-color: #A06643;
     border: 10px solid #623d1d;
     border-top-color: #b16f35;
