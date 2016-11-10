@@ -1,0 +1,40 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5C3818;
+}
+/*
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}*/
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the color on hover */
+li a:hover {
+    background-color: #A06643;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  background-color: #8B572A;
+  border: 10px solid #523419;
+  border-top-color: #A06632;
+  border-right-color: #794C25;
+  border-left-color: #523419;
+}
