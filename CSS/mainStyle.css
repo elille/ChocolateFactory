@@ -30,8 +30,7 @@ a{
 	color: #black;
 }
 
-
-
+/*the following CSS is for the navba.*/
 .main-nav img {
   height: 70px;
 }
@@ -44,7 +43,6 @@ a{
   background-color: #5C3818;
 }
 
-
 .main-nav a {
     float: right;
     font-family:"Lucida Sans Unicode";
@@ -54,6 +52,7 @@ a{
     text-decoration: none;
 }
 
+/*style the chocolate square*/
 .main-nav .square {
   width: 100px;
   height: 80px;
@@ -75,3 +74,4 @@ a{
     border-right-color: #764a23;
     border-left-color: #623d1d;
 }
+/*End of CSS for the navbar*/
