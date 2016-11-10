@@ -1,27 +1,37 @@
 body {
-	margin-top:10%;
-	margin-left:25%;
-	margin-right:25%;
+	text-align:center;
 }
 
-h1 {
+.wrap {
+	margin-top:10%;
+	margin-left:30%;
+	margin-right:30%;
+}
+
+
+.wrap h1 {
+	font-family: "Lucida Sans Unicode";
+	font-size:44px;
 	color:#D3BF2A;
+}
+
+.wrap h2 {
+	font-family:"Lucida Sans Unicode";
+	font-size:40px;
 }
 
 #leftChoc {
 	position:absolute;
-	left:8%;
-	top:20%;
-	width:250px;
+	left:10%;
+	top:30%;
+	width:15%;
 }
 
 #rightChoc {
-	/*position:absolute;
-	right:8%;*/
-	position:static;
-	right:100px;
-	top:20%;
-	width:250px;
+	position:absolute;
+	right:10%;
+	top:30%;
+	width:15%;
 }
 
 #wonWrapper {
@@ -29,7 +39,6 @@ h1 {
 }
 
 #goldenTicket {
-	/*visibility:hidden;*/
 	position:absolute;
 	left:10%;
 	top:10%;

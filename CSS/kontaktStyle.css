@@ -8,7 +8,6 @@ label {
 	font-size:24px;
 	font-family:"Lucida Sans Unicode";
 	font-weight:bold;
-	/*annen font?*/
 }
 
 #inputKnapp {
@@ -25,18 +24,19 @@ input[type=text], input[type=email], textarea{
 	border-radius: 4px;
 }
 
-img {
-	width:200px;
-}
-
 #leftCane {
 	position:absolute;
-	left:10%;
-	top:5%;
+	left:15%;
+	top:20%;
+	width:15%;
+	max-width:150px;
 }
 
 #rightCane {
 	position:absolute;
-	right:10%;
-	top:5%;
+	right:15%;
+	top:20%;
+	width:15%;
+	max-width: 150px;
+
 }

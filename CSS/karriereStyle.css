@@ -1,13 +1,20 @@
-body {
-	margin-left:30%;
-	margin-right:30%;
-
+.wrap {
+	margin: 0 auto;
+	max-width:700px;
 }
 
-h1 {
+.wrap h1 {
 	color: #4A90E2;
 	margin-top:100px;
 	/* hvordan faa bold og moon?*/
+}
+
+
+.wrap h2 {
+	font-weight:lighter;
+	font-family:"Lucida Sans Unicode";
+	font-size:40px;
+	text-align:center;
 }
 
 #lobbyist > h2 {
@@ -17,42 +24,42 @@ h1 {
 	color: #8B572A;
 }
 
-img {
+.peppermints img {
 	width:100px;
 	position:absolute;
 }
 
 #leftP {
 	left: 5%;
-	top:40px;
+	top:200px;
 }
 #leftG {
 	left: 15%;
-	top:65px;
+	top:225px;
 }
 #leftR {
 	left: 25%;
-	top:42px;
+	top:202px;
 }
 #leftY {
 	left: 35%;
-	top:60px;
+	top:220px;
 }
 #rightP {
 	right: 5%;
-	top:40px;
+	top:200px;
 }
 #rightG {
 	right: 15%;
-	top:65px;
+	top:225px;
 }
 #rightR {
 	right: 25%;
-	top:42px;
+	top:202px;
 }
 #rightY {
 	right: 35%;
-	top:60px;
+	top:220px;
 }
 
 /*mer avstand mellom header og stilinger?

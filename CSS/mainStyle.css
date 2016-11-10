@@ -3,7 +3,7 @@ body{
 	margin: 0;
 }
 
-.header{
+.header {
 	color: #D0021B;
 	font-family: "Lucida Sans Unicode";
 	font-size: 30px;
@@ -12,7 +12,7 @@ body{
 	margin-top: 50px;
 }
 
-.subheadings{
+.subheadings {
 	text-align: center;
 	font-family: "Lucida Sans Unicode";
 	font-weight: lighter;
@@ -20,13 +20,59 @@ body{
 	color: #000000;
 }
 
-.text{
+.text {
 	text-align: justify;
 	font-family: Arial;
 	font-size:17px;
 }
 
-a{
-	color: #000000;
-	font-size:25px;
+a {
+	/*font-size:25px; too general */
+	color: #black;
 }
+
+/*the following CSS is for the navba.*/
+.main-nav img {
+  height: 70px;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:  20px 90px;
+  background-color: #5C3818;
+}
+
+.main-nav a {
+    float: right;
+    font-family:"Lucida Sans Unicode";
+    font-size:15px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*style the chocolate square*/
+.main-nav .square {
+  width: 100px;
+  height: 80px;
+  background-color: #8B572A;
+  border: 10px solid #523419;
+  border-top-color: #A06632;
+  border-right-color: #794C25;
+  border-left-color: #523419;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Change the color on hover */
+.main-nav .square:hover {
+    background-color: #A06643;
+    border: 10px solid #623d1d;
+    border-top-color: #b16f35;
+    border-right-color: #764a23;
+    border-left-color: #623d1d;
+}
+/*End of CSS for the navbar*/
