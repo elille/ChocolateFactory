@@ -1,40 +1,52 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  font-family:"Lucida Sans Unicode";
+  font-size:12px;
+  font-weight: bold;
+}
+
+.logo {
+  float: left;
+}
+
+.logo img {
+  height: 100px;
+}
+
+nav {
+    padding:  20px 90px;
     overflow: hidden;
     background-color: #5C3818;
 }
-/*
-ul {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}*/
+nav img {
+  padding:  0px 0px;
 
-li {
-    float: right;
 }
-
-li a {
-    display: block;
+nav a {
+    float: right;
     color: white;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
 }
 
-/* Change the color on hover */
-li a:hover {
-    background-color: #A06643;
-}
-
 .square {
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   background-color: #8B572A;
   border: 10px solid #523419;
   border-top-color: #A06632;
   border-right-color: #794C25;
   border-left-color: #523419;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Change the color on hover */
+.square:hover {
+    background-color: #A06643;
+    border: 10px solid #623d1d;
+    border-top-color: #b16f35;
+    border-right-color: #764a23;
+    border-left-color: #623d1d;
 }
