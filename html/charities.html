@@ -40,7 +40,7 @@
 					
 			<h3 id="commProg1Hdr">Godteri til søtsugne dårlig-stilte familier</h3>
 			
-			<div class="hideComm" id="commProg1">
+			<div class="hide" id="commProg1">
 				<p>
 					Selv om Willy Wonka, vår grunnlegger, kom fra svært gode kår, hadde han alltid et stort engasjement for dem som hadde det verre enn seg selv, og han startet dermed GTSDSF-programmet.
 				</p>
@@ -51,7 +51,7 @@
 			</div>
 			
 			<h3 id="commProg2Hdr">Familiegjenforening fra eksotiske land</h3>
-			<div class="hideComm" id="commProg2">
+			<div class="hide" id="commProg2">
 				<p>
 					Mye av arbeidskraften ved Charlies sjokoladefabrikk består av arbeidere som i mange tilfeller ble revet bort fra sitt hjemland for å sitte i England og produsere godteri for minimalt med lønn, men de fleste arbeiderne er fornøyd med dette, og ønsker å hente familiemedlemmer fra hjemlandet til å jobbe ved fabrikken.
 				</p>
@@ -66,7 +66,7 @@
 				Charlies sjokoladefabrikk har et stort engasjement for mindre bedrifter og organisasjoner i området, og har flere sponsorprogrammer for å gi tilskudd til disse. </p>
 				<p>Klikk på programtittelen for å se mer om disse programmene.</p>
 			<h3 id="sponsProg1Hdr">Sponsing av idrettslag</h3>
-			<div class="hideSponsor" id="sponsProg1">
+			<div class="hide" id="sponsProg1">
 			<p>
 				Willy Wonka var stor fan av det lokale ungdomsfotballaget hele sitt liv, og satte i sin tid opp et sponsorprogram som gir mulighet for å søke økonomisk støtte for å drifte idrettslag.
 			</p>
@@ -75,7 +75,7 @@
 			</p>
 		</div>	
 		<h3 id="sponsProg2Hdr">Sponsing av tannlegekontorer</h3>
-			<div class="hideSponsor" id="sponsProg2">
+			<div class="hide" id="sponsProg2">
 				<p>
 					Ettersom fabrikken produserer produkter med stort innhold av sukker, og dette fører til skade på tenner, har fabrikken satt opp et sponsorprogram for å hjelpe de lokale tannlegene med å holde sine kontorer åpne.
 				</p>
@@ -87,6 +87,13 @@
 		</div><!-- End charitiesList-->
 	</div>
 	 		<script>
+	
+	//Set all hidden divs to hidden in JS so the data is still available if the JS fails.
+	var hiddendivs = document.getElementsByClassName("hide");
+	for (let i=0;i<hiddendivs.length;i++){
+		hiddendivs[i].style.display ='none';
+	}
+		//Handle clicks on charities' headers 
 		document.getElementById("charitiesList").addEventListener("click", function(e){
 			clicked = e.target.id;
 			switch(clicked){
@@ -104,7 +111,7 @@
 				break;
 			}
 		});
-
+		//toggle visibility of an element
 		function toggleVisibleId(id){
 			id.style.display = id.style.display == 'inline' ? 'none' : 'inline';
 		}		

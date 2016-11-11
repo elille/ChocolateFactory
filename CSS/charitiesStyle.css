@@ -5,13 +5,14 @@ body {
 .header{
 	color: #BD10E0;
 }
-
+/*
 .hideComm{
 	display:none;
 }
 .hideSponsor{
 	display:none;
 }
+*/
 .wrap{
 	text-align:center;
 	margin: 0 auto;
