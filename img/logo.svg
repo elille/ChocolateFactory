@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="264px" height="43px" viewBox="0 0 264 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="262px" height="43px" viewBox="0 0 262 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
     <title>Group</title>
     <desc>Created with Sketch.</desc>
@@ -7,10 +7,10 @@
     <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-weight="normal">
         <g id="Group" transform="translate(-2.000000, 3.000000)">
             <text id="Charlies-chocolate-f" font-family="GiddyupStd, Giddyup Std" font-size="35" fill="#FFFFFF">
-                <tspan x="4.4175" y="23">Charlies chocolate factory</tspan>
+                <tspan x="2.4175" y="23">Charlies chocolate factory</tspan>
             </text>
             <text id="--Satisfying-your-mo" font-family="Century" font-size="11" fill="#E79349">
-                <tspan x="1.57617188" y="37">- Satisfying your mouth sience 1881 - </tspan>
+                <tspan x="2.32617188" y="37">- Satisfying your mouth since 1881 - </tspan>
             </text>
         </g>
     </g>
