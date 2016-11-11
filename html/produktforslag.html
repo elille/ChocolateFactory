@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="nb">
+	<head>
+		<title> Produktforslag </title>
+		<meta charset="UTF-8">
+		<!-- lenke til din cssfil -->
+		<link rel="stylesheet" type="text/css" href="../css/mainStyle.css" />
+		<link rel="stylesheet" type="text/css" href="../css/produktforslagStyle.css" />
+		<link rel="icon" type="image/png" href="../img/favicon.png"/>
+
+	</head>
+
+	<body>
+		<!-- start code for navbar -->
+		<nav class=main-nav>
+			<div class="logo">
+				<a href="../index.html">
+						<img src="../img/logo.svg" alt="Logo">
+				</a>
+			</div>
+			<div>
+				<a class="square" href="omFabrikken.html">ABOUT</a>
+				<a class="square" href="karriere.html">CAREER</a>
+				<a class="square" href="charities.html">CHARITIES</a>
+				<a class="square" href="konkurranse.html">CONTESTS</a>
+				<a class="square" href="products.html">PRODUCTS</a>
+			</div>
+		</nav>
+		<!-- end code for navbar -->
+	 		
+		
+		<div class="wrap">
+			<h1 class="header">Produktforslag</h1>
+			
+			<p>
+				Charlies sjokoladefabrikk er interessert i forslag og innspill til nye produkter. På denne siden ønsker vi å motta forslag til nye produkter du som forbruker ønsker deg. Vi forbeholder oss retten til å avvise forslag.
+			</p>
+			<p>
+				Alle produktforslag som kommer inn blir Sjokoladefabrikkens eiendom, og garanterer ikke at innsender får navnet sitt nevnt på emballasje eller lignende.
+			</p>
+			
+			<form method="post" accept-charset="utf-8">
+
+				<label for="navn">Navn:</label><br><input type="text" name="navn" placeholder="Ola Nordmann" id="navn" required>	<br>			
+				<label for="e-post">E-post:</label><br><input type="email" name="e-post" placeholder="navn@firma.no" id="e-post" required><br>
+				<label for="beskrivelse">Beskrivelse:</label><br><textarea id="beskrivelse" name="beskrivelse" rows="10" cols="40" placeholder="Fyll inn en beskrivelse av produktet ditt" required></textarea><br>
+				
+				<label for="pictures" >Bildefiler:</label><br><input type="file" name="pictures" id="pictures" accept="image/*">
+
+				<p><input type="submit" id="inputButton" value="Send inn"></p>
+			</form>
+			<img src="../img/candyCaneVenstre.png" id="leftCane" alt="CandyCane left"/>
+			<img src="../img/candyCaneHoyre.png" id="rightCane" alt="CandyCane Right"/>
+		</div>
+			
+  </body>
+</html>
