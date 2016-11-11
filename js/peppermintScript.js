@@ -1,3 +1,10 @@
+/*
+FILNAVN: js/pepperoniScript.js 
+FORFATTER:  Jarl Victor Bjørgan
+NÅR:  November 2016 
+MÅL:  Roterer godteribildene på karriere.html siden
+*/
+
 // Alle peppermintene
 const candies = [
 document.getElementById('leftY'), 
