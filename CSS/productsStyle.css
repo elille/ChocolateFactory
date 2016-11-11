@@ -1,7 +1,13 @@
 #headimg{
-	margin: 10px auto;
-	width: 300px;
-	display: block;
+	transform: rotate(90deg);
+	position: relative;
+	left: 50px;
+	top: -190px;
+	width: 90px;
+}
+
+#topPart{
+	height:0px;
 }
 
 .container{
