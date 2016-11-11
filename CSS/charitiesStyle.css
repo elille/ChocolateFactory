@@ -1,0 +1,19 @@
+body {
+	text-align:center;
+}
+
+.header{
+	color: #BD10E0;
+}
+
+.hideComm{
+	display:none;
+}
+.hideSponsor{
+	display:none;
+}
+.wrap{
+	text-align:center;
+	margin: 0 auto;
+	max-width:700px;
+}
