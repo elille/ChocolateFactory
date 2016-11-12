@@ -91,14 +91,14 @@ div > div {
 
 #telefonnummer {
 	position:absolute;
-	left:40%;
+	left:30%;
 	width:30%;
 }
 
 #epost {
 	position: absolute;
 	width:30%;
-	right:0;
+	right:30px;
 }
 
 
