@@ -6,10 +6,11 @@ MÅL:  Stil for siden products.html
 */
 
 #headimg{
-	transform: scale(1,1) rotate(90deg);
+	transform: scale(1,1) rotate(90deg) translate(0, 15%);
 	position: relative;
 	top: -210px;
-	left: 360px;
+	margin:auto;
+	left: 50%;
 }
 
 #topPart{
