@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="nb">
 	<head>
-		<title> Konkurranse </title>
+		<title> Veldedighet </title>
 		<meta charset="UTF-8">
 		<!-- lenke til din cssfil -->
 		<link rel="stylesheet" type="text/css" href="../css/mainStyle.css" />
-		<link rel="icon" type="image/png" href="img/favicon.png"/>
+		<link rel="stylesheet" type="text/css" href="../css/charitiesStyle.css" />
+		<link rel="icon" type="image/png" href="../img/favicon.png"/>
+
 	</head>
 
 	<body>
@@ -25,5 +27,94 @@
 			</div>
 		</nav>
 		<!-- end code for navbar -->
+	 		
+		
+		<div class="wrap">
+			<div id="charitiesList">
+			
+			<h1 class="header">Veldedighet</h1>
+			<h2 class="subheadings">Samfunnsansvar</h2>
+				<p class="text">Charlies sjokoladefabrikk er dedikert til å forbedre og hjelpe til i nærmiljøet rundt fabrikken. Derfor har Willy Wonka startet opp flere veldedighetsprogrammer for å hjelpe familier som sårt trenger tilskudd.</p>
+				<p class="text">Klikk på programtittelen for å se mer om disse programmene.</p>
+					
+					
+			<h3 class="text" id="commProg1Hdr">Godteri til søtsugne dårlig-stilte familier</h3>
+			
+			<div class="hide" id="commProg1">
+				<p class="text">
+					Selv om Willy Wonka, vår grunnlegger, kom fra svært gode kår, hadde han alltid et stort engasjement for dem som hadde det verre enn seg selv, og han startet dermed GTSDSF-programmet.
+				</p>
+				<p class="text">
+					Programmet gir regelmessige leveringer av sjokolade til familier med inntekt på under 5000kr i måneden, samt gratis tannlegetimer til alle mottakere av denne sjokoladen. Familier kan søke ved å sende en e-post til <a href="mailto:GTSDSF@charlies.com?subject=GTSDSF">GTSDSF@charlies.com</a>, eller ved personlig oppmøte på bygg 96 på mandager og torsdager etter klokken 14:00.
+					
+				</p>
+			</div>
+			
+			<h3 class="text" id="commProg2Hdr">Familiegjenforening fra eksotiske land</h3>
+			<div class="hide" id="commProg2">
+				<p class="text">
+					Mye av arbeidskraften ved Charlies sjokoladefabrikk består av arbeidere som i mange tilfeller ble revet bort fra sitt hjemland for å sitte i England og produsere godteri for minimalt med lønn, men de fleste arbeiderne er fornøyd med dette, og ønsker å hente familiemedlemmer fra hjemlandet til å jobbe ved fabrikken.
+				</p>
+				<p class="text">
+					Inspirert av dette har fabrikken satt opp et program for å hjelpe beboere i nærområdet med å hente sine familiemedlemmer inn til landet. Fabrikken stiller med transportpenger, matpenger og assistanse med å skaffe nødvendige dokumenter.
+				</p>
+			</div>
+			
+			<h2 class="subheadings">Sponsorprogrammer</h2>
+			
+			<p class="text">
+				Charlies sjokoladefabrikk har et stort engasjement for mindre bedrifter og organisasjoner i området, og har flere sponsorprogrammer for å gi tilskudd til disse. </p>
+				<p class="text">Klikk på programtittelen for å se mer om disse programmene.</p>
+			<h3 class="text" id="sponsProg1Hdr">Sponsing av idrettslag</h3>
+			<div class="hide" id="sponsProg1">
+			<p class="text">
+				Willy Wonka var stor fan av det lokale ungdomsfotballaget hele sitt liv, og satte i sin tid opp et sponsorprogram som gir mulighet for å søke økonomisk støtte for å drifte idrettslag.
+			</p>
+			<p class="text">
+				Mottakere av sponsorstøtte må benytte sjokoladefabrikkens logo på sine drakter, samt være ambassadører for firmaets produkter ved bortekamper og lignende. Søknader kan leveres pr. epost til <a href="mailto:sponsing@charlies.com?subject=Sponsing">sponsing@charlies.com</a>
+			</p>
+		</div>	
+		<h3 class="text" id="sponsProg2Hdr">Sponsing av tannlegekontorer</h3>
+			<div class="hide" id="sponsProg2">
+				<p class="text">
+					Ettersom fabrikken produserer produkter med stort innhold av sukker, og dette fører til skade på tenner, har fabrikken satt opp et sponsorprogram for å hjelpe de lokale tannlegene med å holde sine kontorer åpne.
+				</p>
+				<p class="text">
+					Mottakere av sponsorstøtte får utlevert sjokoladetannbørster og lignende reklamemateriell, og må fremvise fabrikkens logo på sine tannlegekontorer. Søknader leveres pr. epost til <a href="mailto:sponsing@charlies.com?subject=Sponsing">sponsing@charlies.com</a>.
+				</p>
+			</div>
+			
+		</div><!-- End charitiesList-->
+	</div>
+	 		<script>
+	
+	//Set all hidden divs to hidden in JS so the data is still available if the JS fails.
+	var hiddendivs = document.getElementsByClassName("hide");
+	for (let i=0;i<hiddendivs.length;i++){
+		hiddendivs[i].style.display ='none';
+	}
+		//Handle clicks on charities' headers 
+		document.getElementById("charitiesList").addEventListener("click", function(e){
+			clicked = e.target.id;
+			switch(clicked){
+			case("commProg1Hdr"):
+				toggleVisibleId(commProg1);
+				break;
+			case("commProg2Hdr"):
+				toggleVisibleId(commProg2);
+				break;
+			case("sponsProg1Hdr"):
+				toggleVisibleId(sponsProg1);
+				break;
+			case("sponsProg2Hdr"):
+				toggleVisibleId(sponsProg2);
+				break;
+			}
+		});
+		//toggle visibility of an element
+		function toggleVisibleId(id){
+			id.style.display = id.style.display == 'inline' ? 'none' : 'inline';
+		}		
+	 		</script>
   </body>
 </html>

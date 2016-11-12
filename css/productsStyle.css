@@ -1,7 +1,26 @@
+/*
+FILNAVN: css/productsStyle.css
+FORFATTER:  Jarl Victor Bjørgan
+NÅR:  November 2016 
+MÅL:  Stil for siden products.html
+*/
+
 #headimg{
-	margin: 10px auto;
-	width: 300px;
+	transform: scale(1,1) rotate(90deg) translate(0, 15%);
+	position: relative;
+	top: -210px;
+	margin:auto;
+	left: 50%;
+}
+
+#topPart{
+	height:0;
 	display: block;
+	width: 50%;
+}
+
+#upperProducts{
+	margin-top: 150px;
 }
 
 .container{
