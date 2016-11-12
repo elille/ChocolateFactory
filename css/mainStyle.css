@@ -1,3 +1,10 @@
+/*
+FILNAVN: css/mainStyle.css
+FORFATTER:  Silje Riseng og Jarl Victor Bjørgan
+NÅR:  November 2016 
+MÅL:  Generell stil
+*/
+
 body{
 	background-color: #FFF8F2;
 	margin: 0;
@@ -28,7 +35,7 @@ body{
 
 a {
 	/*font-size:25px; too general */
-	color: #black;
+	color: black;
 }
 
 /*the following CSS is for the navba.*/
