@@ -71,12 +71,11 @@ footer {
 
 }
 
-div > div {
+footer > div {
 	font-size:2vw;
 	font-family:"Lucida Sans Unicode";
 	position:absolute;
 	top:30px;
-
 }
 
 #footWrapper {

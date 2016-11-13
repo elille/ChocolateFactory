@@ -1,13 +1,13 @@
 /*
-FILNAVN: js/pepperoniScript.js 
+FILNAVN: js/pepperoniScript.js
 FORFATTER:  Jarl Victor Bjørgan
-NÅR:  November 2016 
+NÅR:  November 2016
 MÅL:  Roterer godteribildene på karriere.html siden
 */
 
 // Alle peppermintene
 const candies = [
-document.getElementById('leftY'), 
+document.getElementById('leftY'),
 document.getElementById('leftG'),
 document.getElementById('leftR'),
 document.getElementById('leftP'),
@@ -20,7 +20,7 @@ document.getElementById('rightP')];
 let degrees = 5;
 setInterval(rotate, 50);
 
-// Kjører en vri på alle bildene
+// Kjører en vri på alle bildene http://www.w3schools.com/tags/canvas_rotate.asp
 function rotate(){
 	for(var i = 0; i < candies.length; i++){
 		turnImg(candies[i]);

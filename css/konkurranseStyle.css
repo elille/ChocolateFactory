@@ -13,6 +13,7 @@ body {
 	font-size:40px;
 }
 
+/*bestemmer sjokoladeplatene skal stå på siden */
 #leftChoc {
 	position:absolute;
 	left:10%;
@@ -27,6 +28,7 @@ body {
 	width:15%;
 }
 
+/*overskriver standarstørrelsen til den lille sjokoladeknappen*/
 #deltaKnapp {
 	height: 100px;
 	width: 100px;
@@ -36,6 +38,7 @@ body {
 	visibility:hidden;
 }
 
+/*Midstiller gullbilletten*/
 #goldenTicket {
 	position:absolute;
 	left:10%;
@@ -44,6 +47,7 @@ body {
 	z-index:1;
 }
 
+/*Midstiller teksten på gullbilletten */
 #wonText{
 	position:absolute;
 	left:25%;

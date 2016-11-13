@@ -11,7 +11,7 @@
 	</head>
 
 	<body>
-		<!-- start code for navbar -->
+		<!-- start code for navbar (se index.html for kommentarer) -->
 		<nav class=main-nav>
 			<div class="logo">
 				<a href="../index.html">
@@ -40,14 +40,16 @@
 			</p>
 
 			<form method="post" accept-charset="utf-8" class="text">
-
+	<!--  form for å skrive inn tekst -->
 				<label for="navn">Navn:</label><br><input type="text" name="navn" placeholder="Eks: Ola Nordmann" id="navn" required>	<br>
 				<label for="e-post">E-post:</label><br><input type="email" name="e-post" placeholder="Eks: olanordmann@brunost.no" id="e-post" required><br>
 				<label for="beskrivelse">Beskrivelse:</label><br><textarea id="beskrivelse" name="beskrivelse" rows="10" cols="40" placeholder="Fyll inn en beskrivelse av produktet ditt" required></textarea><br>
 
+				<!-- last opp ditt bilde -->
 				<label for="pictures" >Bildefiler:</label><br><input type="file" name="pictures" id="pictures" accept="image/*">
 
 				<p><input type="submit" class="smallButton" value="Send inn"></p>
+				<!--  merk at det ikke blir sendt noe sted, fordi vi ikke har lov til å bruke noe annet enn javascript -->
 			</form>
 			<img src="../img/candyCaneVenstre.png" id="leftCane" alt="CandyCane left"/>
 			<img src="../img/candyCaneHoyre.png" id="rightCane" alt="CandyCane Right"/>

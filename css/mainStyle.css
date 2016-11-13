@@ -5,17 +5,20 @@ NÅR:  November 2016
 MÅL:  Generell stil
 */
 
+/*setter en bakgrunnsfarge som ikke er hvit*/
 body{
 	background-color: #FFF8F2;
 	margin: 0;
 }
 
+/* de fleste av sidene våre skal være midtstilt, altså ikke ha tekst helt ut i kantene */
 .wrap{
 	width:40%;
 	margin: 0 auto;
 	max-width:700px;
 }
 
+/*standard for header*/
 .header {
 	color: #D0021B;
 	font-family: "Lucida Sans Unicode";
@@ -25,6 +28,7 @@ body{
 	margin-top: 50px;
 }
 
+/*standard for underoverskrifter*/
 .subheadings {
 	text-align: center;
 	font-family: "Lucida Sans Unicode";
@@ -33,14 +37,15 @@ body{
 	color: #000000;
 }
 
+/*standard for tekst*/
 .text {
 	text-align: justify;
 	font-family: Arial;
 	font-size:17px;
 }
 
+/* Standard farge på lenker skal være svart */
 a {
-	/*font-size:25px; too general */
 	color: black;
 }
 
@@ -90,6 +95,7 @@ a {
 }
 /*end of style for navbar*/
 
+/* lager en standard stil på inputfelt, sånn at de skal se litt bra ut */
 input[type=text], input[type=email], textarea, input[type=file]{
 	width:100%;
 	box-sizing: border-box;
@@ -98,6 +104,7 @@ input[type=text], input[type=email], textarea, input[type=file]{
 	font-size: 24px;
 }
 
+/*alle knapper skal se ut som sjokolade*/
 .smallButton {
 	width: 100px;
   height: 40px;
@@ -111,6 +118,7 @@ input[type=text], input[type=email], textarea, input[type=file]{
 	color: white;
 }
 
+/*når man hovrerer over knappen endrer den farge og blir lysere */
 .smallButton:hover {
 	background-color: #A06643;
 	border: 8px solid #623d1d;

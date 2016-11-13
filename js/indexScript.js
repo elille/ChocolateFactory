@@ -1,13 +1,14 @@
 var slideIndex = 0;
 showSlides();
 
+// lager slideshow på alle bildekarusellene på forsiden
 function showSlides() {
     var i;
     var slides = document.getElementsByClassName("mySlides");
     var slides2 = document.getElementsByClassName("mySlides2");
     var slides3 = document.getElementsByClassName("mySlides3");
     var dots = document.getElementsByClassName("dot");
-    
+
     for (i = 0; i < slides.length; i++) {
        slides[i].style.display = "none";
     }
@@ -19,12 +20,12 @@ function showSlides() {
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
     setTimeout(showSlides, 5000); // Change image every 5 seconds
-    
+
     for (i = 0; i < slides2.length; i++) {
        slides2[i].style.display = "none";
     }
     slides2[slideIndex-1].style.display = "block";
-    
+
     for (i = 0; i < slides3.length; i++) {
        slides3[i].style.display = "none";
     }

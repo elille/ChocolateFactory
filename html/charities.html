@@ -3,21 +3,25 @@
 	<head>
 		<title> Veldedighet </title>
 		<meta charset="UTF-8">
-		<!-- lenke til din cssfil -->
+		<!-- mainStyle er hovedCssfilen, charitiesStyle er spesifikt for dette html-dokumentet  -->
 		<link rel="stylesheet" type="text/css" href="../css/mainStyle.css" />
 		<link rel="stylesheet" type="text/css" href="../css/charitiesStyle.css" />
+		<!-- Legger inn et favikon (det som kommer opp i fanen din når du åper siden) -->
 		<link rel="icon" type="image/png" href="../img/favicon.png"/>
 
 	</head>
 
 	<body>
 		<!-- start code for navbar -->
+		<!-- her har jeg brukt http://www.w3schools.com/css/css_navbar.asp  -->
 		<nav class=main-nav>
+			<!-- gjør at bildet av logoen blir en lenke til index.html -->
 			<div class="logo">
 				<a href="../index.html">
 						<img src="../img/logo.svg" alt="Logo">
 				</a>
 			</div>
+			<!--  liste med lenker som ligger i navbaren -->
 			<div>
 				<a class="square" href="omFabrikken.html">OM OSS</a>
 				<a class="square" href="karriere.html">JOBB</a>
@@ -92,40 +96,8 @@
 					Mottakere av sponsorstøtte får utlevert sjokoladetannbørster og lignende reklamemateriell, og må fremvise fabrikkens logo på sine tannlegekontorer. Søknader leveres pr. epost til <a href="mailto:sponsing@charlies.com?subject=Sponsing">sponsing@charlies.com</a>.
 				</p>
 			</div>
-
+			<script type ="text/javascript" src=../js/hideScript.js></script>
 		</div><!-- End charitiesList-->
 	</div>
-
-
-	 		<script>
-
-	//Set all hidden divs to hidden in JS so the data is still available if the JS fails.
-	var hiddendivs = document.getElementsByClassName("hide");
-	for (let i=0;i<hiddendivs.length;i++){
-		hiddendivs[i].style.display ='none';
-	}
-		//Handle clicks on charities' headers
-		document.getElementById("charitiesList").addEventListener("click", function(e){
-			clicked = e.target.id;
-			switch(clicked){
-			case("commProg1Hdr"):
-				toggleVisibleId(commProg1);
-				break;
-			case("commProg2Hdr"):
-				toggleVisibleId(commProg2);
-				break;
-			case("sponsProg1Hdr"):
-				toggleVisibleId(sponsProg1);
-				break;
-			case("sponsProg2Hdr"):
-				toggleVisibleId(sponsProg2);
-				break;
-			}
-		});
-		//toggle visibility of an element
-		function toggleVisibleId(id){
-			id.style.display = id.style.display == 'inline' ? 'none' : 'inline';
-		}
-	 		</script>
   </body>
 </html>
