@@ -19,37 +19,46 @@
 				</a>
 			</div>
 			<div>
-				<a class="square" href="omFabrikken.html">ABOUT</a>
-				<a class="square" href="karriere.html">CAREER</a>
-				<a class="square" href="charities.html">CHARITIES</a>
-				<a class="square" href="konkurranse.html">CONTESTS</a>
-				<a class="square" href="products.html">PRODUCTS</a>
+				<a class="square" href="omFabrikken.html">OM OSS</a>
+				<a class="square" href="karriere.html">JOBB</a>
+				<a class="square" href="charities.html">VELDEDIGHET</a>
+				<a class="square" href="konkurranse.html">KONKURRANSER</a>
+				<a class="square" href="products.html">PRODUKTER</a>
 			</div>
 		</nav>
 		<!-- end code for navbar -->
-	 		
-		
+
+			<!-- the coins -->
+			<div class="coins">
+				<img src="../img/coin.svg" id="leftOne"/>
+				<img src="../img/coin.svg" id="leftTwo"/>
+				<img src="../img/coin.svg" id="leftThree"/>
+				<img src="../img/coin.svg" id="rightOne"/>
+				<img src="../img/coin.svg" id="rightTwo"/>
+				<img src="../img/coin.svg" id="rightThree"/>
+			</div>
+
 		<div class="wrap">
 			<div id="charitiesList">
-			
+
 			<h1 class="header">Veldedighet</h1>
 			<h2 class="subheadings">Samfunnsansvar</h2>
 				<p class="text">Charlies sjokoladefabrikk er dedikert til å forbedre og hjelpe til i nærmiljøet rundt fabrikken. Derfor har Willy Wonka startet opp flere veldedighetsprogrammer for å hjelpe familier som sårt trenger tilskudd.</p>
 				<p class="text">Klikk på programtittelen for å se mer om disse programmene.</p>
-					
-					
+
+
 			<h3 class="text" id="commProg1Hdr">Godteri til søtsugne dårlig-stilte familier</h3>
-			
+
 			<div class="hide" id="commProg1">
 				<p class="text">
 					Selv om Willy Wonka, vår grunnlegger, kom fra svært gode kår, hadde han alltid et stort engasjement for dem som hadde det verre enn seg selv, og han startet dermed GTSDSF-programmet.
 				</p>
 				<p class="text">
 					Programmet gir regelmessige leveringer av sjokolade til familier med inntekt på under 5000kr i måneden, samt gratis tannlegetimer til alle mottakere av denne sjokoladen. Familier kan søke ved å sende en e-post til <a href="mailto:GTSDSF@charlies.com?subject=GTSDSF">GTSDSF@charlies.com</a>, eller ved personlig oppmøte på bygg 96 på mandager og torsdager etter klokken 14:00.
-					
+
 				</p>
 			</div>
-			
+
 			<h3 class="text" id="commProg2Hdr">Familiegjenforening fra eksotiske land</h3>
 			<div class="hide" id="commProg2">
 				<p class="text">
@@ -59,9 +68,9 @@
 					Inspirert av dette har fabrikken satt opp et program for å hjelpe beboere i nærområdet med å hente sine familiemedlemmer inn til landet. Fabrikken stiller med transportpenger, matpenger og assistanse med å skaffe nødvendige dokumenter.
 				</p>
 			</div>
-			
+
 			<h2 class="subheadings">Sponsorprogrammer</h2>
-			
+
 			<p class="text">
 				Charlies sjokoladefabrikk har et stort engasjement for mindre bedrifter og organisasjoner i området, og har flere sponsorprogrammer for å gi tilskudd til disse. </p>
 				<p class="text">Klikk på programtittelen for å se mer om disse programmene.</p>
@@ -73,7 +82,7 @@
 			<p class="text">
 				Mottakere av sponsorstøtte må benytte sjokoladefabrikkens logo på sine drakter, samt være ambassadører for firmaets produkter ved bortekamper og lignende. Søknader kan leveres pr. epost til <a href="mailto:sponsing@charlies.com?subject=Sponsing">sponsing@charlies.com</a>
 			</p>
-		</div>	
+		</div>
 		<h3 class="text" id="sponsProg2Hdr">Sponsing av tannlegekontorer</h3>
 			<div class="hide" id="sponsProg2">
 				<p class="text">
@@ -83,17 +92,19 @@
 					Mottakere av sponsorstøtte får utlevert sjokoladetannbørster og lignende reklamemateriell, og må fremvise fabrikkens logo på sine tannlegekontorer. Søknader leveres pr. epost til <a href="mailto:sponsing@charlies.com?subject=Sponsing">sponsing@charlies.com</a>.
 				</p>
 			</div>
-			
+
 		</div><!-- End charitiesList-->
 	</div>
+
+
 	 		<script>
-	
+
 	//Set all hidden divs to hidden in JS so the data is still available if the JS fails.
 	var hiddendivs = document.getElementsByClassName("hide");
 	for (let i=0;i<hiddendivs.length;i++){
 		hiddendivs[i].style.display ='none';
 	}
-		//Handle clicks on charities' headers 
+		//Handle clicks on charities' headers
 		document.getElementById("charitiesList").addEventListener("click", function(e){
 			clicked = e.target.id;
 			switch(clicked){
@@ -114,7 +125,7 @@
 		//toggle visibility of an element
 		function toggleVisibleId(id){
 			id.style.display = id.style.display == 'inline' ? 'none' : 'inline';
-		}		
+		}
 	 		</script>
   </body>
 </html>

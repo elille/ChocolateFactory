@@ -2,13 +2,6 @@ body {
 	text-align:center;
 }
 
-.wrap {
-	margin-top:10%;
-	margin-left:30%;
-	margin-right:30%;
-}
-
-
 .wrap h1 {
 	font-family: "Lucida Sans Unicode";
 	font-size:44px;
@@ -32,6 +25,11 @@ body {
 	right:10%;
 	top:30%;
 	width:15%;
+}
+
+#deltaKnapp {
+	height: 100px;
+	width: 100px;
 }
 
 #wonWrapper {
