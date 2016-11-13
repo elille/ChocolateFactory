@@ -10,6 +10,9 @@ body {
 
 /*makes sure the text is laying over the chocolate smear*/
 .wrapper {
+	width:40%;
+	margin: 0 auto;
+	max-width:700px;
 	position: relative;
 	top: -100px;
 	min-height:90%;

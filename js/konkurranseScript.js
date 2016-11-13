@@ -35,7 +35,7 @@ document.onkeydown = function(evt) {
     }
 };
 
-// velger et random antall ganger man må trykke på "delta-knappen" for å vinne hjep tatt fra http://www.w3schools.com/jsref/jsref_random.asp
+// velger et random antall (maks 10) ganger man må trykke på "delta-knappen" for å vinne hjep tatt fra http://www.w3schools.com/jsref/jsref_random.asp
 function drawNumber(){
 	let numb = Math.random()*10;
 	numb = (Math.floor(numb % 10));
