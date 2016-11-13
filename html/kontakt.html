@@ -1,10 +1,12 @@
+<!DOCTYPE html>
+
 <!--
 FILNAVN: karriere.html
 FORFATTER:  Egil Lillehaug
 NÅR:  November 2016
 MÅL:  La brukeren kontakte selskapet via input
 -->
-<!DOCTYPE html>
+
 
 <html lang="no">
 	<head>
@@ -39,21 +41,20 @@ MÅL:  La brukeren kontakte selskapet via input
 			<form method="post">
 				<!-- Trenger bare felter for navn, epost og melding. Autofokus er på, og navn og epost er påbudt -->
 				<label for="navn"> Navn: </label><br>
-				<input type="text" name="navn" pattern = "^\D{0,100}$" placeholder="Eks: Ola Nordmann" required autofocus><br>
+				<input type="text" id="navn" pattern="^\D{0,100}$" placeholder="Eks: Ola Nordmann" required autofocus><br>
 
 				<label for="email"> E-post: </label><br>
-				<input type="email" name="email" placeholder="Eks: olanordmann@brunost.no" required><br>
+				<input type="email" id="email" placeholder="Eks: olanordmann@brunost.no" required><br>
 
 				<label for="melding"> Melding: </label><br>
-				<textarea name="melding" rows="10" cols="30" required></textarea><br>
+				<textarea id="melding" rows="10" cols="30" required></textarea><br>
 
 				<input type="submit" value="Send" class="smallButton"/>
 			</form>
 			<!-- Dekorative godteristenger som er ved siden av teksten -->
-			<img src="../img/candyCaneVenstre.png" id="leftCane"/>
-			<img src="../img/candyCaneHoyre.png" id="rightCane"/>
-		</body>
-	</div>
-
+			<img src="../img/candyCaneVenstre.png" alt="godteri" id="leftCane"/>
+			<img src="../img/candyCaneHoyre.png" alt="godteri" id="rightCane"/>
+		</div>
+</body>
 </html>
 <!-- Action til form? Endre input-type(post osv)? ENdre label-font. ANnen farge på label-font?-->
