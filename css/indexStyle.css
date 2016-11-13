@@ -1,0 +1,80 @@
+#headimg{
+	margin: 10px auto;
+	width: 300px;
+	display: block;
+}
+
+.container{
+	display: inline-block;
+	width: 250px;
+	margin: 10% auto;
+	padding: 0 20px;
+	vertical-align: top;
+}
+
+#products > h3{
+	color: #4A90E2;
+}
+
+#charities > h3{
+	color: #FF4259;
+}
+
+#about > h3{
+	color: #D0021B;
+}
+
+.container > img{
+	width:100%;
+}
+
+.division{
+	width: 0;
+	display: table;
+	margin: 0 auto;
+}
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+    display: inline-block;
+	width: 250px;
+	margin: 15% auto;
+	padding: 0;
+	vertical-align: top;
+    border-style: groove;
+    border-width: 3px;
+}
+
+.width {
+    width:250px;
+    height: 175px;
+}
+
+/* The dots/bullets/indicators */
+
+
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
