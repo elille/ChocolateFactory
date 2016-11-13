@@ -2,27 +2,12 @@ body {
 	text-align:center;
 }
 
-
-
 label {
 	font-size:24px;
 	font-family:"Lucida Sans Unicode";
 	font-weight:bold;
 }
 
-#inputKnapp {
-	background-color:#5C3818;
-	color:#E69349;
-	font-family:"Lucida Sans Unicode";
-	font-size:20px;
-	border-radius:8px;
-}
-
-input[type=text], input[type=email], textarea{
-	width:40%;
-	box-sizing: border-box;
-	border-radius: 4px;
-}
 
 #leftCane {
 	position:absolute;

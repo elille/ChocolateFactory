@@ -3,7 +3,32 @@
 	color: #BD10E0;
 }
 
-.wrap{
-	margin: 0 auto;
-	max-width:700px;
+.coins img {
+	width:100px;
+	position:absolute;
+}
+#leftOne {
+	left: 15%;
+	top:200px;
+}
+#leftTwo {
+	left: 10%;
+	top:400px;
+}
+#leftThree {
+	left: 15%;
+	top:600px;
+}
+
+#rightOne {
+	right: 20%;
+	top:200px;
+}
+#rightTwo {
+	right: 15%;
+	top:400px;
+}
+#rightThree {
+	right: 20%;
+	top:600px;
 }

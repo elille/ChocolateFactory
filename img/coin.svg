@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 11</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="97.816155%" id="radialGradient-1">
+            <stop stop-color="#FBDA61" offset="0%"></stop>
+            <stop stop-color="#CF9A24" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-11" transform="translate(25.000000, 25.000000) scale(-1, 1) translate(-25.000000, -25.000000) ">
+            <circle id="Oval-3" fill="url(#radialGradient-1)" cx="25" cy="25" r="25"></circle>
+            <text id="10kr" stroke="#FFED00" transform="translate(24.500000, 26.000000) scale(-1, 1) translate(-24.500000, -26.000000) " font-family="Moon-Bold, Moon" font-size="15" font-weight="bold" fill="#E5BA43">
+                <tspan x="6" y="31">10kr</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

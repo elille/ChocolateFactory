@@ -23,11 +23,11 @@ MÅL:  La brukeren kontakte selskapet via input
 				</a>
 			</div>
 			<div>
-				<a class="square" href="omFabrikken.html">ABOUT</a>
-				<a class="square" href="karriere.html">CAREER</a>
-				<a class="square" href="charities.html">CHARITIES</a>
-				<a class="square" href="konkurranse.html">CONTESTS</a>
-				<a class="square" href="products.html">PRODUCTS</a>
+				<a class="square" href="omFabrikken.html">OM OSS</a>
+				<a class="square" href="karriere.html">JOBB</a>
+				<a class="square" href="charities.html">VELDEDIGHET</a>
+				<a class="square" href="konkurranse.html">KONKURRANSER</a>
+				<a class="square" href="products.html">PRODUKTER</a>
 			</div>
 		</nav>
 		<!-- end code for navbar -->
@@ -39,15 +39,15 @@ MÅL:  La brukeren kontakte selskapet via input
 			<form method="post">
 				<!-- Trenger bare felter for navn, epost og melding. Autofokus er på, og navn og epost er påbudt -->
 				<label for="navn"> Navn: </label><br>
-				<input type="text" name="navn" pattern = "^\D{0,100}$" required autofocus><br>
+				<input type="text" name="navn" pattern = "^\D{0,100}$" placeholder="Eks: Ola Nordmann" required autofocus><br>
 
 				<label for="email"> E-post: </label><br>
-				<input type="email" name="email" placeholder="olanordmann@brunost.no" required><br>
+				<input type="email" name="email" placeholder="Eks: olanordmann@brunost.no" required><br>
 
 				<label for="melding"> Melding: </label><br>
 				<textarea name="melding" rows="10" cols="30" required></textarea><br>
 
-				<input type="submit" value="Send" id="inputKnapp"/>
+				<input type="submit" value="Send" class="smallButton"/>
 			</form>
 			<!-- Dekorative godteristenger som er ved siden av teksten -->
 			<img src="../img/candyCaneVenstre.png" id="leftCane"/>
