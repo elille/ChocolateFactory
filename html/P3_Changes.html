@@ -20,7 +20,14 @@
 					<a href="#files">
 						<div class="button">Updated Organizational Scheme</div>
 					</a>
+					<a href="#modularity">
+						<div class="button">Modularity requirements</div>
+					</a>
+					<a href="#requrements">
+						<div class="button">Modularity requirements</div>
+					</a>
 			</div>
+
 		<section id="admin">
 			<header>
 				<h2>Administrative details</h2>
@@ -35,10 +42,38 @@
 			<header>
 				<h2>Changes we have made</h2>
 			</header>
+			<h3>General</h3>
+			<p>The font was changed to a nice webfont, bacause the Moon font was not availabel as a webfont. We fount another font that had the same "feeling" to it. We also made the whole page in Norwegian, so the sketches from the P2 are a bit dated. </p>
+
+			<h3>Front page</h3>
+			<p>In this page we ended up using CSS floats. The headings are not clickable, but every column has a read more link, and the pictures are also links to the associated pages</p>
+
+			<h3>Product suggestion</h3>
+			<p>Here we did not have the oppurtunity to send the mail directly to our client. This is due to a spcified requrement not to use any libraries. </p>
+
 			<h3>Contact us page</h3>
-			<p>Removed script</p>
+			<p>In this page we added a button. Instead of just having to reload the page, the user may now push this button in order to win. </p>
+
+			<h3>Contest winner</h3>
+			<p>Here we changed the design of the golden ticket. We also added a unique, and random generated code to the ticket, to make
+				sure no one could cheat in our contest. We also changed the functionality for escaping the winner-ticket popup. We did this because we were afraid that
+				removing it by klicking anywhere on the page could lead to someone loosing their code. We did instead make a mechanism so that the user may press the esc button
+				on their computer to get back to the normal page. </p>
+
+			<h3>Charities</h3>
+			<p>In this page we changed the placing of the coin illustrations. This was just a pure design desition from our (and Wonkas) side. This was to make it
+			just a little more distiguishable from the career page. In stead of the "read more" we put the headings of the sponsorship programs and other charities
+			as collapsable links. This lets the user choose what information they want to see on the page. We also made the email adress clickable, and by clicking
+		the adress the user will be prompted to send an email from their installed email client. </p>
+
+			<h3>Jobs</h3>
+			<p>Here we added a fun little spinning animation to the candies. This was done mainly to hypnotize people into applying for the poster jobs (but don't tell them that).
+			 </p>
+
+			<h3>Contact us page</h3>
+			<p>Like in the product suggestion page we had to removed the script that sends emails.</p>
 		</section>
-			
+
 		<section id="files">
 			<header>
 				<h2>Updated Organizational Scheme</h2>
@@ -110,7 +145,7 @@
 					</ul>
 				</li>
 			</ul>
-			
+
 
 			<h3>Final Work Division</h3>
 			<table>
@@ -139,7 +174,7 @@
 						Make the front page (three columns of text, each with space for a subheader, 300 characters of text and a hyperlink to the following pages:
 						<ul>
 							<li>Products</li>
-							<li>Charities</li> 
+							<li>Charities</li>
 							<li>About</li>
 						</ul>
 					</td>
@@ -165,7 +200,7 @@
 				</tr>
 				<tr>
 					<td>
-						Write a descriptive text (about 300 characters pr product): 
+						Write a descriptive text (about 300 characters pr product):
 						<ul>
 							<li>Diabethus</li>
 							<li>Overweith</li>
@@ -183,7 +218,7 @@
 						<ul>
 							<li>Career </li>
 							<li>About </li>
-							<li>Charities </li>													
+							<li>Charities </li>
 						</ul>
 					</td>
 					<td>Silje </td>
@@ -195,7 +230,7 @@
 				</tr>
 				<tr>
 					<td>
-						Write the text for the following pages: 
+						Write the text for the following pages:
 						<ul>
 							<li>Contest</li>
 							<li>Career</li>
@@ -272,8 +307,54 @@
 					<td>Make a scropt that makes the decorative images in karriere.html spin.</td>
 					<td>Jarl</td>
 				</tr>
+				<tr>
+					<td>Make sure all the pages HTML files were w3 valid.</td>
+					<td>Silje</td>
+				</tr>
+				<tr>
+					<td>Change some design details to give the page a more uniform design.</td>
+					<td>Silje </td>
+				</tr>
+				<tr>
+					<td>Make a facivon and implement it to all the subpages.</td>
+					<td>Egil</td>
+				</tr>
 			</table>
 			Things needed from the customer: none - we make it all!
 		</section>
+
+		<section id="modularity">
+			<header>
+				<h2>Modularity requirement</h2>
+			</header>
+				<p>Regarding the modularity requirement, after the page was wireframed and its
+					basic design set, the team took a step back and looked at the individual parts
+					to see if any code was re-used in another area of the website, and took steps to
+					move such snippets into locations where they could be referred to instead of re-defined in each page.</p>
+				<p>CSS commands that turned out to be useful in other sections was moved from the individual pages'
+						 CSS files, into the general "mainStyle.css"-file, so that the individual pages' CSS files only
+						 included tweaks and fixes for those particular pages. This ensures a more unified design, and simpler
+						 management and further development.</p>
+			 	<p>The Navigation bar was initially declared on every single page, which makes for very complicated
+					management and lots of code repetition. These were replaced by a snippet of javascript that inserts the
+					required elements straight into the pages.</p>
+				<p> In order to increase the legibility of the codes and also to allow possible future re-use of javascript
+					functions, all snippets of javascript from the pages were moved into separate javascript files.</p>
+		</section>
+
+		<section id="requrements">
+			<header>
+				<h2>Minimum requrements</h2>
+			</header>
+			<p>Erik fulfilled the minimum requirements by making the image slideshow on the front page.</p>
+			<p>Egil fulfilled the minimum requirements by making the script that lets you compete for a tour of the factory.
+				He also made form validation for the contact form.</p>
+			<p>Jarl fulfilled the minimum requirements by making the spinning animation for the career pages. He also made the form
+			validation for the product suggest form, and a script for uploading a picture from your computer. </p>
+			<p>John fulfilled the minimum requirements by making the script that shows or hides the extra information about the
+			sponsorship programs of charlies chocolate factory. </p>
+			<p>Silje fulfilled the minimum requirements by making the script that loads the html for the navbar into every page. </p>
+		</section>
+
 	</body>
 </html>
